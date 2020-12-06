@@ -1,0 +1,37 @@
+[package]
+name = "advent-of-code-2020"
+version = "0.1.0"
+authors = ["Peter Nelson <peter@peterdn.com>"]
+edition = "2018"
+
+[dependencies]
+bit-set = "0.5.2"
+
+[lib]
+name = "aoc_macros"
+path = "src/aoc_macros.rs"
+proc-macro = true
+
+[[bin]]
+name = "day1"
+path = "src/day1.rs"
+
+[[bin]]
+name = "day2"
+path = "src/day2.rs"
+
+[[bin]]
+name = "day3"
+path = "src/day3.rs"
+
+[[bin]]
+name = "day4"
+path = "src/day4.rs"
+
+[[bin]]
+name = "day5"
+path = "src/day5.rs"
+
+[[bin]]
+name = "day6"
+path = "src/day6.rs"
