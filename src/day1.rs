@@ -62,7 +62,7 @@ fn find_pairwise_goal(
         let result = lo + hi;
         if result == goal {
             return Some((lo, hi));
-        } else if result > 2020 {
+        } else if result > goal {
             idx_hi -= 1;
             idx_lo = 0;
         } else {
